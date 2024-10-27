@@ -411,13 +411,17 @@ plugins:
     enable: false # 是否启用
   # Aplayer。参见 https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # 是否启用
+    enable: true # 是否启用
     type: fixed # fixed, mini
     audios:
-      - name: # 音频名称
-        artist: # 音频艺术家
-        url: # 音频 URL
-        cover: # 音频封面 URL
+      - name: Something Just Like This
+        artist: Coldplay
+        url: https://evan.beee.top/music/Something%20Just%20Like%20This%20-%20The%20Chainsmokers%E3%80%81Coldplay.mp3
+        cover: https://evan.beee.top/music/covers/Something_Just_Like_This.png
+      - name: Imagine # 音频名称
+        artist: John Lennon # 音频艺术家
+        url: https://evan.beee.top/music/Imagine%20-%20John%20Lennon.mp3 # 音频 URL
+        cover: https://evan.beee.top/music/covers/Lennon_Imagine_Sleeve_1975.jpg # 音频封面 URL
         lrc: # 音频歌词
 #      - name: # 音频名称
 #        artist: # 音频艺术家
